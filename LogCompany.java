@@ -9,7 +9,7 @@
  ****************************************************************************/
 import java.util.Scanner;
 
-public class Logs {
+public class LogCompany {
 	public static void main(String args[]) {
 		Scanner UserInput = new Scanner(System.in);
 		
