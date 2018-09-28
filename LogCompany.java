@@ -11,31 +11,31 @@ import java.util.Scanner;
 
 public class LogCompany {
 	public static void main(String args[]) {
-		Scanner UserInput = new Scanner(System.in);
+		Scanner userInput = new Scanner(System.in);
 		
 		//Variables
-		int TruckCapacity;
-		int RegLog;
-		double LogWeight;
-		double LogNumber;
-		double HalfLog;
-		double QuarterLog;
-		double LogSize;
+		int truckCapacity;
+		int regLog;
+		double logWeight;
+		double logNumber;
+		double halfLog;
+		double quarterLog;
+		double logSize;
 		
-		TruckCapacity = 1100;
-		RegLog = 1;
-		HalfLog = 0.5;
-		QuarterLog = 0.25;
+		truckCapacity = 1100;
+		regLog = 1;
+		halfLog = 0.5;
+		quarterLog = 0.25;
 		
 		System.out.print("Enter log size (options: 0.25, 0.5, 1): "); 
 		
-		LogSize = UserInput.nextDouble();
+		logSize = userInput.nextDouble();
 		
-		LogWeight = LogSize * 20;
+		logWeight = logSize * 20;
 		
-		LogNumber = TruckCapacity/LogWeight;
+		logNumber = truckCapacity/logWeight;
 		
-		System.out.print("The truck can carry " + LogNumber + " logs of " + LogSize + "m.");
+		System.out.print("The truck can carry " + logNumber + " logs of " + logSize + "m.");
 		
 	}
 
