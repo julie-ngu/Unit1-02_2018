@@ -35,7 +35,7 @@ public class LogCompany {
 		
 		logNumber = truckCapacity/logWeight;
 		
-		System.out.print("The truck can carry " + logNumber + " logs of " + logSize + "m.");
+		System.out.print("The truck can carry " + logNumber + " logs of " + logSize + "m.\n");
 		
 	}
 
